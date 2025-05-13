@@ -64,6 +64,16 @@ console.log(nombre);
 console.log(nombre.reverse());
 
 
+// metodo sort
+let desorden = [ 4, 5 , 7 , 9 , 2 , 3 , 1, 10 ,11, 100, 200, 300, 255,];
+console.log(desorden);
+console.log(desorden.sort());
+console.log(nombre);
+console.log(nombre.sort());
+
+
+
+
 
 
 

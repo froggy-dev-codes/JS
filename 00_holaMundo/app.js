@@ -12,3 +12,5 @@ lineas
 // no lo ve el usuario o el cliente
 // depurar el codigo 
 console.log("Hola mundo... ");
+
+console.log(6 / 0);
