@@ -64,12 +64,41 @@ console.log(nombre);
 console.log(nombre.reverse());
 
 
-// metodo sort
+// metodo sort (string) 
 let desorden = [ 4, 5 , 7 , 9 , 2 , 3 , 1, 10 ,11, 100, 200, 300, 255,];
 console.log(desorden);
 console.log(desorden.sort());
 console.log(nombre);
 console.log(nombre.sort());
+
+
+// metodo join 
+let arrPalabras = ["hola", "otra", "mas cosas", 5, 8, 9, true];
+console.log(arrPalabras);
+let nuevaCadena = arrPalabras.join(" ");
+console.log(nuevaCadena);
+
+// metodo split (String)
+console.log(nuevaCadena);
+console.log(nuevaCadena.split(" "));
+
+
+// metodo slice
+console.log(arrPalabras);
+console.log(arrPalabras.slice(0, 3));
+
+
+// metodo every 
+let arrEdad = [12, 15, 7, 4, 10, 11];
+
+let menores = (edad) => (edad <= 18);
+
+let respuesta = arrEdad.every(menores);
+console.log(respuesta);
+
+
+
+
 
 
 
