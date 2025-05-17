@@ -1,5 +1,3 @@
-
-
 function test(){
     console.log(a); // 1
 
