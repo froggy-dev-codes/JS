@@ -5,7 +5,6 @@ let arr = [1,25,4,7,89,6,3,4,5,7,8,54,45,"froggy", true];
 for (let i = 0; i < arr.length; i++){
     console.log(i);
     console.log(arr[i]);
-    
 }
 
 
