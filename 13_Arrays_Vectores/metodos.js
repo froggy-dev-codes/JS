@@ -96,8 +96,33 @@ let menores = (edad) => (edad <= 18);
 let respuesta = arrEdad.every(menores);
 console.log(respuesta);
 
+//  metodo find
+let animales = ["perro", "gato", "tapir", "serpiente", "awawa", "tapir"];
+
+let valor = "tapir";
+let retorno = animales.find(function(dato){
+    return (dato.includes(valor));
+})
+
+console.log(retorno);
 
 
+// metodo filtro
+let arrnumeros = [1,2,4,5,7,8,9,63,2,1,4,5];
+
+let arrFiltrado = arrnumeros.filter((elemento)=> {
+    return (elemento%2 == 1);
+}) 
+console.log(arrFiltrado);
+
+
+
+// metodo reduce
+console.log(arrnumeros);
+let arrRedeuce = arrnumeros.reduce(function (acomulador, valoractual){
+    return (acomulador + valoractual)
+})
+console.log(arrRedeuce);
 
 
 
